@@ -6,7 +6,7 @@ from mutagen.easyid3 import EasyID3
 def editId3(file):
     tags = EasyID3(file)            # 音声ファイルをEasyID3オブジェクトに変換し、編集可能にする
     tags['artist'] = '旺文社'                       # アーティスト名を変更
-    tags['album'] = '英検準1級　でる準パス単'        # アルバム名を変更
+    tags['album'] = '英検準1級　でる順パス単'        # アルバム名を変更
     tags['albumartist'] = '旺文社'                  # アルバムのアーティスト名を変更
     tags.save()
 
@@ -25,4 +25,4 @@ def bundle_resize(dir):
     return
 
 # ファイルを探してリサイズする関数を実行
-bundle_resize('/home/telur4/Music/all')
+bundle_resize('/home/telur4/Music/p1q_all')
