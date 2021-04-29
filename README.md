@@ -7,5 +7,5 @@ Ubuntu 20.04にて音声ファイルをブラウザ(Chrome現時点最新版)か
 
 ## 使用した技術
 
-言語: Python3  
-ライブラリ: EasyID3やその他  
+- Python3  
+- EasyID3  
